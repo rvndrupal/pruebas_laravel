@@ -22,6 +22,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/productos/front', 'ProductController@front')->name('productos.front');
 
+Route::get('/contact', 'ContactController@contacto')->name('contacto');
+
+Route::post('/contact/store', 'ContactController@store')->name('contact.store');
+
 //Se crean las rutas del sistema
 //MUY IMPORTANTE AGREGAR EL MIDDLAWERE AL ARCHIVO kERNEL.PHP
 

@@ -47,6 +47,10 @@
                             <a class="nav-link" href="{{ route('productos.front') }}">Productos Front</a>
                         </li>
 
+                        <li class="nav-item">
+                                <a class="nav-link" href="{{ route('contacto') }}">Contacto</a>
+                            </li>
+
                         @can('users.index')
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('users.index') }}">Usuarios</a>
